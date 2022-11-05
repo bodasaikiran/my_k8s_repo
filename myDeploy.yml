@@ -16,6 +16,6 @@ metadata:
     spec:
       containers:
       - name: saikiran-container
-        image: maha4iac/myjavaapp28oct22:2
+        image: maha4iac/myonlinebooking:1
         ports:
         - containerPort: 8080
