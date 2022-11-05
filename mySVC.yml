@@ -6,9 +6,10 @@ metadata:
     app: myjavaapp
 spec:
   type: NodePort
-  selector:
-    app: myjavaapp
   ports:
     - port: 8080
-      NodePort: 30001
-      Protocal: TCP
+      nodePort: 30001
+      protocal: TCP
+  selector:
+    app: myjavaapp
+
