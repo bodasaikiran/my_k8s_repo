@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: saikiran-container
-          image: bodasaikiran/myimage
+          image: maha4iac/mahalogin:1
           ports:
             - containerPort: 8080
 
