@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: myjavaapp
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     app: myjavaapp
   template:
@@ -13,7 +13,7 @@ spec:
         app: myjavaapp
     spec:
       containers:
-        - name: saikiran container
+        - name: saikiran-container
           image: bodasaikiran/myimage
           ports:
             - containerPort: 8080
